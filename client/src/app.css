@@ -1,0 +1,99 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f8ebeb;
+}
+.login-container h1 {
+  margin: 20px auto 5px;
+}
+.login-container input {
+  margin: 20px auto;
+  padding: 10px;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  background-color: #fff;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+  width: 300px;
+  display: block;
+  font-size: 18px;
+}
+.login-container button {
+  margin: 10px 0;
+  width: 300px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 3px solid #1232a3;
+  font-weight: 600;
+  font-size: 18px;
+}
+.login-container button:hover {
+  background-color: #1232a3;
+  color: #fff;
+  cursor: pointer;
+}
+.login-container p {
+  margin-top: 10px;
+}
+.login-container p a {
+  text-decoration: none;
+  color: #1232a3;
+}
+
+.alert {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+}
+
+.login {
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 8px 15px;
+  border: 2px solid #000;
+}
+.login:hover {
+  color: #000;
+  background-color: #fff;
+  cursor: pointer;
+}
+.login a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.home {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 15px;
+}
+
+.navItems {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.navItems > * {
+  font-weight: 500;
+  padding: 2px 5px;
+}
+.navItems > *:hover {
+  background: #000;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.homeContainer {
+  margin: 10px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}/*# sourceMappingURL=app.css.map */

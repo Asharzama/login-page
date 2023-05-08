@@ -1,0 +1,48 @@
+.login {
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 8px 15px;
+  border: 2px solid #000;
+  &:hover {
+    color: #000;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+.home {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 15px;
+}
+
+.navItems {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  & > * {
+    font-weight: 500;
+    padding: 2px 5px;
+
+    &:hover{
+        background: #000;
+        color: #fff;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+  }
+}
+
+.homeContainer {
+  margin: 10px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
